@@ -1,13 +1,13 @@
-#What is ActiveRecord
+# What is ActiveRecord
 - Check it our here [What is ActiveRecord](https://guides.rubyonrails.org/active_record_basics.html)
 
-##Main Steps
+## Main Steps
 
-###- Step 1 - Add the model in ruby ('model_name.rb')
-###- Step 2 - Create and run migration
-###- Step 3 - Verify schema (in console - 'Model.new')
+### - Step 1 - Add the model in ruby ('model_name.rb')
+### - Step 2 - Create and run migration
+### - Step 3 - Verify schema (in console - 'Model.new')
 
-##Takeaways
+## Takeaways
 
 - ActiveRecord is Awesome!!!
 
@@ -19,7 +19,7 @@
 
 - classes/models inherit from ActiveRecord::Base which has bundled code and methods for accessing the database.......NO MORE SQL!! Yippee!
 
-##Creating A Database
+## Creating A Database
 
 ### Step 1
 
@@ -52,7 +52,7 @@ end
 rake db:migrate
 ```
 
-###Check the Schema file
+### Check the Schema file
 
 ```ruby
 ActiveRecord::Schema.define(version: 2018_09_04_133503) do
@@ -89,7 +89,7 @@ class AddColumnsToStudents < ActiveRecord::Migration[5.2]
 end
 ```
 
-##Important Notes
+## Important Notes
 
 - Never change the schema manually.
 Always look at the schema for information on problems for debugging
