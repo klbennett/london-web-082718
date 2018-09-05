@@ -1,57 +1,11 @@
 require 'sqlite3'
 require 'pry'
-# require_relative 'artist'
-#OBJECT RELATIONAL MAPPING
+require_relative 'artist'
 
 DB = { :conn => SQLite3::Database.new('./artists.db') }
 DB[:conn].results_as_hash = true
 
-def create_artist(name)
-  sql = <<-SQL
-    INSERT INTO artists (name) VALUES (?);
-  SQL
-
-  DB[:conn].execute(sql, name)
-end
-
-def read_artist(name)
-  sql = <<-SQL
-    SELECT * FROM artists WHERE name=?
-  SQL
-
-  DB[:conn].execute(sql, name)
-end
-
-def update_artist(name, new_name)
-  sql = <<-SQL
-    UPDATE artists SET name=? WHERE name=?;
-  SQL
-
-  DB[:conn].execute(sql, new_name, name)
-end
-
-def delete_artist(name)
-  sql = <<-SQL
-    DELETE FROM artists WHERE name=?;
-  SQL
-
-  DB[:conn].execute(sql, name)
-end
-
-def show_all_artists
-  sql = <<-SQL
-    SELECT * FROM artists
-  SQL
-
-  DB[:conn].execute(sql)
-end
-
-def delete_all_artists
-  sql = <<-SQL
-    DELETE FROM artists
-  SQL
-
-  DB[:conn].execute(sql)
-end
-
 Pry.start
+
+# [[17, "Linkin Park"], [18, "Limp Bizkit"]]
+# [{"id": 17, "name": "Linkin Park"}, {"id": 18, "name": "Limp Bizkit"}]
