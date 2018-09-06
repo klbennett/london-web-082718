@@ -9,3 +9,10 @@
   - has_many / belongs_to
   - has_many through
 
+# Review these labs:
+
+- [Has many object lab](https://learn.co/tracks/web-development-immersive-2-0-module-one/object-oriented-ruby/object-relationships/has-many-object-lab)
+- [Collaborating object lab](https://learn.co/tracks/web-development-immersive-2-0-module-one/object-oriented-ruby/object-relationships/collaborating-objects-lab)
+- [Has many objects through lab](https://learn.co/tracks/web-development-immersive-2-0-module-one/object-oriented-ruby/object-relationships/has-many-objects-through)
+
+
