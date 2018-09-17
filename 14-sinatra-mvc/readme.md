@@ -19,6 +19,7 @@
 * Sinatra file structure
 
 * Making sure we have access to the console via Rake
+
 ```ruby
 #Rakefile
 
@@ -94,7 +95,7 @@ in the erb file:
 
 get “/dishes/:id” do
   @dish = Dish.find(params[:id])
-  erb ”dish/show”
+  erb :”dishes/show”
 end
 ```
 
