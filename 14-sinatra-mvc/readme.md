@@ -1,5 +1,3 @@
-https://github.com/learn-co-students/london-web-060418/tree/master/14-sinatra-mvc
-
 # Intro to Sinatra and the MVC model
 
 ## MVC - convention over configuration
@@ -13,6 +11,8 @@ https://github.com/learn-co-students/london-web-060418/tree/master/14-sinatra-mv
 [RESTful routes](https://i.imgur.com/omvB7JJ.png)
 
 ## MVC in Sinatra - App setup
+
+* make sure you have `corenal` installed by running `gem install corneal`
 
 * Create the app with `corneal` by invoking `corneal new <app name>`
 
@@ -76,7 +76,7 @@ end
 
 in the erb file:
 ```erb
-# app/views/dishes/index 
+# app/views/dishes/index
 
 <h1> Hello Dishes </h1>
 
