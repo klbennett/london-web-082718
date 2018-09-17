@@ -2,7 +2,7 @@
 
 [Slides](https://docs.google.com/presentation/d/1IeRSIA6LKo-VjVGGoCppfWVlsDng2r9IYiqNlO8BnWI/edit#slide=id.p38)
 
-[submarine cable map]("https://www.submarinecablemap.com/")
+[submarine cable map](https://www.submarinecablemap.com/)
 
 # Rack & The Internet
 
