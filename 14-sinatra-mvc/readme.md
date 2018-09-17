@@ -28,12 +28,14 @@ task :console do
 end
 ```
 
+`bundle install`
+
 * Create the model in `app/models`
 
 ```ruby
 # app/models/dish.rb
 
-class Dish < ActiveRecord:Base
+class Dish < ActiveRecord::Base
   # no relationships - we just need it to
   # build the tables
 end
@@ -41,6 +43,11 @@ end
 
 * Make migrations, check the schema
   * `rake db:create_migration NAME=create_dishes`
+
+```
+Active support warning:
+https://guides.rubyonrails.org/active_support_core_extensions.html
+```
 
 ```ruby
 # db/migrate/<migration_timestamp>migration_name
@@ -52,7 +59,7 @@ end
 
   * `rake db:migrate`
 
-* Create test objects!
+* Create test objects! Make sure to use hashes as arguments when creating AR objects.
 
 * `shotgun`, concept of a view, `erb`, `layout.erb`, `yield` keyword
 
@@ -81,8 +88,6 @@ in the erb file:
 * What gets interpolated and how?
 
 * This logic does work in the view as well, but it’s not what you want to do. If computers do not care - why should you?
-
-* How does google handle search parameters?
 
 ```ruby
 # app/controllers/application_controller.rb

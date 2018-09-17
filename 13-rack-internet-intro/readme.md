@@ -2,6 +2,8 @@
 
 [Slides](https://docs.google.com/presentation/d/1IeRSIA6LKo-VjVGGoCppfWVlsDng2r9IYiqNlO8BnWI/edit#slide=id.p38)
 
+[submarine cable map]("https://www.submarinecablemap.com/")
+
 # Rack & The Internet
 
 ### The Internet
@@ -44,3 +46,14 @@ binding.pry
 # inspect environment_hash
 
 ```
+
+* How to kill a process you started unwillingly:
+
+1. `lsof -i :9393` where `9393` is the keyword you're looking for, in this example a server process running on port 9393.
+2. `kill -9 <process_id>` where `<process_id>` is as per self-explanatory name, the internal id of the process in question. Here you can see example output for performing that operation:
+
+```
+[14:56:06] restaurant
+// ♥ lsof -i :9393
+COMMAND   PID         USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+ruby    11534 dkaczmarczyk   12u  IPv4 0xdee067917b318809      0t0  TCP localhost:9393 (LISTEN)
