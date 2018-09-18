@@ -1,0 +1,28 @@
+<h1>All them dogzzz</h1>
+
+<img src="https://loremflickr.com/320/240/dog" alt="dogssss">
+
+<br>
+
+<a href="/dogs/new"> create a new dog! </a>
+
+<br>
+
+<ul>
+  <% @dogs.each do |dog| %>
+  <li>
+    <div>
+      <hr>
+      <a href="/dogs/<%= dog.id %>"> <%= dog.name %> </a>
+
+      <br>
+
+      <form action="/dogs/<%= dog.id %>" method="post">
+        <input type="hidden" name="_method" value="delete" />
+        <input id="mysubmit" type="submit" value="Delete <%= dog.name %>" />
+      </form>
+      <hr>
+    </div>
+  </li>
+  <% end  %>
+</ul>
