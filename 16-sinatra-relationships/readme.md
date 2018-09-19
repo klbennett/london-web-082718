@@ -20,14 +20,13 @@ Please note that I've included a `REST_template.rb` file in which you can find a
 
 How to create objects that relate to each other using html forms. Remember, it's nothing new in terms of what we're doing, but it's a novelty in terms of HOW we do it. We'll employ HTML `select` and `checkbox` elements to ease the process of creating these.
 
-Key takeaways are knowing:
+Key takeaways are:
 
-- how the params hash is built
-- how to nest hashes inside of the params hash
-- how to nest arrays inside of the params hash
-- how mass-assignment works in relation to hashes
-- how to use params hash to mass-assign and create related objects
-
+Knowing how ...
+- the params hash is built
+- to nest hashes inside of the params hash
+- to nest arrays inside of the params hash
+- mass-assignment works in relation to hashes
 
 ## Important things that you should solidify during that lecture:
 
@@ -37,7 +36,7 @@ Key takeaways are knowing:
 - how to structure nested params when sending forms in HTML (the `human[cat_id][]` bit)
 
 
-## What will we build? RelatedThingregistry.
+## What will we build?
 
 If you want to recreate the app we're building today, please follow these exact steps:
 
@@ -46,7 +45,7 @@ If you want to recreate the app we're building today, please follow these exact 
 - create models
 - create and run migrations
 - create instances on the command line
-- create and set up the
+- create and set up the controllers
 - go through the process of creating all 7 RESTful routes for every model. Test every step thoroughly.
 
 ## Important stuff that's easy to forget
