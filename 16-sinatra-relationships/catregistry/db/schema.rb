@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180919152250) do
+ActiveRecord::Schema.define(version: 20180627090753) do
 
   create_table "cat_homes", force: :cascade do |t|
     t.integer "cat_id"

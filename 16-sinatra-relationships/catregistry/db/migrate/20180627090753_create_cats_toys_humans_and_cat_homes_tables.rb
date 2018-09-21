@@ -1,4 +1,4 @@
-class CreateCatHomesAndCatAndHumanAndToyTables < ActiveRecord::Migration
+class CreateCatsToysHumansAndCatHomesTables < ActiveRecord::Migration
   def change
     create_table :cats do |t|
       t.string :name

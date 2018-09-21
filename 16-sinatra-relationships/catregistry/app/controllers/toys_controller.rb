@@ -1,4 +1,5 @@
-class ToyController < ApplicationController
+class ToysController < ApplicationController
+
   get "/toys" do
     @toys = Toy.all
     erb :"toys/index"
@@ -15,13 +16,13 @@ class ToyController < ApplicationController
   end
 
   post "/toys" do
-    binding.pry
     toy = Toy.create(params[:toy])
-    # redirect to "/toys/#{toy.id}"
+    redirect "/toys/#{toy.id}"
   end
 
   get "/toys/:id/edit" do
     @toy = Toy.find(params[:id])
+    @cats = Cat.all
     erb :"toys/edit"
   end
 

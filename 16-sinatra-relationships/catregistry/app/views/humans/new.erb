@@ -1,15 +1,15 @@
-<h1>Make a new human</h1>
+<h1>Make new Human</h1>
 
 <form action="/humans" method="post">
-  <label for="name">Name:</label>
-  <input type="text" name="human[name]">
+  <label for="">Name:</label>
+  <input type="text" name="human[name]" />
 
   <% @cats.each do |cat| %>
     <div>
-      <input type="checkbox" id="cat-<%= cat.id %>" name="human[cat_ids][]" value="<%= cat.id %>" />
-      <label for="cat-<%= cat.id %>"> <%= cat.name %></label>
+      <input type="checkbox" id="cat-<%= cat.id %>" name="human[cat_ids][]"
+             value="<%= cat.id %>" />
+      <label for="cat-<%= cat.id %>"><%= cat.name %></label>
     </div>
   <% end %>
-
-  <input type="submit">
+  <input type="submit" />
 </form>
