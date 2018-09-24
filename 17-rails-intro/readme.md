@@ -67,14 +67,14 @@ end
   <% end %>
 </ul>
 ```
-- `mention template rendering only when needed, its implicit`
+- `template rendering only when needed, its implicit`
 - `DHH`, `rework`, `37signals` and `basecamp`
 - `get /"trains", to: "trains#index"`
-- `rails server` 
-- no more annoying `/route/` error 
+- `rails server`
+- no more annoying `/route/` error
 - `LINK HELPERS!` `link_to <what to show> <where to link to>`
 - `PATH HELPERS!`
-- `rails routes` 
+- `rails routes`
 - `link_to trains_path`
 - `to 'trans#show', as: 'train'
 - `rails routes` `app.train_path(1)`
@@ -90,4 +90,3 @@ Rails.application.routes.draw do
 end
 ```
 - `resources :trains, only: [:index, :show]`
-
