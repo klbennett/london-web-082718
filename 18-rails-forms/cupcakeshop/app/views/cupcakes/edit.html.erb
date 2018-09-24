@@ -2,7 +2,13 @@
 
 <%= link_to "cancel", cupcake_path(@cupcake) %>
 
-<%= render "form" %>
+<%= form_for @cupcake do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :price %>
+  <%= f.text_field :price %>
+  <%= f.submit id: 'submit' %>
+<% end %>
 
 <%= form_tag cupcake_path, method: "delete" do %>
   <%= submit_tag "Delete Cupcake" %>

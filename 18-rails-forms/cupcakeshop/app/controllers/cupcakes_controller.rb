@@ -1,11 +1,11 @@
 class CupcakesController < ApplicationController
-  before_action :set_cupcake, only: [:show, :edit, :update, :destroy]
 
   def index
     @cupcakes = Cupcake.all
   end
 
   def show
+    @cupcake = Cupcake.find(params[:id])
   end
 
   def new
@@ -13,43 +13,23 @@ class CupcakesController < ApplicationController
   end
 
   def create
-    @cupcake = Cupcake.create(cupcake_params)
-    if @cupcake.valid?
-      redirect_to @cupcake
-    else
-      flash[:errors] = @cupcake.errors.full_messages
-      redirect_to new_cupcake_path
-    end
+    @cupcake = Cupcake.create(# WHAT DO WE PUT HERE?)
+    redirect_to @cupcake
   end
 
   def edit
+    @cupcake = Cupcake.find(params[:id])
   end
 
   def update
-    @cupcake.update(cupcake_params)
-    if @cupcake.valid?
-      redirect_to @cupcake
-    else
-      flash[:errors] = @cupcake.errors.full_messages
-      redirect_to edit_cupcake_path(@cupcake)
-    end
+    @cupcake = Cupcake.find(params[:id])
+    @cupcake.update(# WHAT DO WE PUT HERE?)
+    redirect_to @cupcake
   end
 
   def destroy
+    @cupcake = Cupcake.find(params[:id])
     @cupcake.destroy
     redirect_to cupcakes_path
-  end
-
-  private
-  def cupcake_params
-    params.require(:cupcake).permit(:name, :price)
-  end
-
-  def cupcake_price_params
-    params.require(:cupcake).permit(:price)
-  end
-
-  def set_cupcake
-    @cupcake = Cupcake.find(params[:id])
   end
 end
