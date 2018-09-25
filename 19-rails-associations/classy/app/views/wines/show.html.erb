@@ -1,0 +1,17 @@
+<h1> <%= @wine.name %> </h1>
+
+<p>This wine belongs to <%= link_to @wine.region.name, @wine.region %> region. </p>
+
+<% if @wine.cheeses.length > 0 %>
+  <p>This wine might pair well with the following cheeses:</p>
+  <ul>
+    <% @wine.cheeses.each do |cheese| %>
+      <li> <%= link_to cheese.name, cheese %> </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>This wine has not been paired with any cheeses!</p>
+<% end %>
+
+<%= link_to "All wines", wines_path %>
+<%= link_to "Edit wine", edit_wine_path(@wine) %>

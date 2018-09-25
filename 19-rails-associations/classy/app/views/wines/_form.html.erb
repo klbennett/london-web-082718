@@ -1,0 +1,9 @@
+<%= form_for @wine do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.collection_select :region_id, @regions, :id, :name %>
+  <div>
+    <%= f.collection_check_boxes :cheese_ids, @cheeses, :id, :name %>
+  </div>
+  <%= f.submit %>
+<% end %>

@@ -1,0 +1,2 @@
+class AnotherKindOfAlcohol < ApplicationRecord
+end
