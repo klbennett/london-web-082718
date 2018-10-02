@@ -39,7 +39,7 @@ has_many :toppings, through: :pizza_toppings
 has_many :pizza_toppings
 has_many :pizzas, through: :pizza_toppings
 ```
-## ßMigrations
+## Migrations
 
 ```ruby
   def change
