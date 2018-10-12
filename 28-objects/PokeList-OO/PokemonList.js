@@ -5,13 +5,13 @@ class PokemonList {
     this.updateList()
   }
 
+  static addPokemons (pokemons) {
+    pokemons.forEach(pokemon => this.addPokemon(pokemon))
+  }
+
   static removePokemon (pokemonToRemove) {
     this.pokemons = this.pokemons.filter(pokemon => pokemon !== pokemonToRemove)
     pokemonToRemove.remove()
-  }
-
-  static addPokemons (pokemons) {
-    pokemons.forEach(pokemon => this.addPokemon(pokemon))
   }
 
   static updateList () {

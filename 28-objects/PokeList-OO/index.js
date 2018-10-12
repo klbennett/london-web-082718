@@ -14,5 +14,5 @@ pokeForm.addEventListener('submit', event => {
   }
 
   API.createPokemon(pokemon)
-    .then(PokemonList.addPokemon)
+    .then(pokemon => PokemonList.addPokemon(pokemon))
 })
