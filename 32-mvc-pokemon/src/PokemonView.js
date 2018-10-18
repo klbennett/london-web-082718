@@ -48,5 +48,3 @@ class PokemonView {
     this.updateList = this.updateList.bind(this)
   }
 }
-
-export default PokemonView

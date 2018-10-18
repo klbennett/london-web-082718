@@ -28,5 +28,3 @@ class PokemonModel {
     this.clearFilter = this.clearFilter.bind(this)
   }
 }
-
-export default PokemonModel

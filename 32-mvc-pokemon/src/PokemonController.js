@@ -39,5 +39,3 @@ class PokemonController {
     this.updateFilter = this.updateFilter.bind(this)
   }
 }
-
-export default PokemonController

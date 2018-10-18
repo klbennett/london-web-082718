@@ -52,5 +52,3 @@ class API {
 }
 
 API.init()
-
-export default API
