@@ -27,11 +27,6 @@ function renderPokemon (pokemon) {
   `
   const imgEl = pokeItem.querySelector('img')
   pokeItem.addEventListener('click', event => {
-    // if (imgEl.src === pokemon.sprites.back) {
-    //   imgEl.src = pokemon.sprites.front
-    // } else {
-    //   imgEl.src = pokemon.sprites.back
-    // }
     imgEl.src = imgEl.src === pokemon.sprites.back ?
       pokemon.sprites.front :
       pokemon.sprites.back

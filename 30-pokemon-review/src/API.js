@@ -14,7 +14,6 @@ class API {
   }
 
   static createPokemon (name, frontImage, backImage) {
-    // 'POST'
     return fetch(this.baseUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

@@ -1,8 +1,8 @@
 class Task {
-  constructor (text, id, priority) {
-    this.text = text
-    this.id = id
-    this.priority = priority
+  constructor (taskData) {
+    this.text = taskData.text
+    this.id = taskData.id
+    this.priority = taskData.priority
   }
 
   render () {
