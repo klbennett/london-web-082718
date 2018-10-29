@@ -1,0 +1,18 @@
+{
+  "name": "34-intro-to-jsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "navbar-example.js",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "semantic-ui-css": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "open index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
