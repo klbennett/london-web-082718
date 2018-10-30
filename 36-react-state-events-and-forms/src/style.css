@@ -1,0 +1,10 @@
+.painting {
+  border: solid 2px black;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.painting img {
+  max-width: 180px;
+}
