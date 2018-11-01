@@ -1,0 +1,290 @@
+{
+  "paintings": [
+    {
+      "id": "59bd59ee9c18db5297a32338",
+      "collecting_institution": "",
+      "date": "1600â€“1626",
+      "dimensions": {
+        "text": "10 7/16 Ã— 6 15/16 in",
+        "height": 10.4375,
+        "width": 6.9375,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "peter-paul-rubens-bust-of-pseudo-seneca",
+      "title": "Bust of Pseudo-Seneca",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/RcoWk2PHQq6yqX7dpSyt-g/medium.jpg",
+      "artist": {
+        "name": "Peter Paul Rubens",
+        "hometown": "Siegen, Westphalia",
+        "birthday": "1577",
+        "deathday": "1640"
+      },
+      "votes": 96
+    },
+    {
+      "id": "59bd59dc139b214a3672abe5",
+      "collecting_institution": "",
+      "date": "ca. 1662",
+      "dimensions": {
+        "text": "18 Ã— 16 in",
+        "height": 18,
+        "width": 16,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "johannes-vermeer-young-woman-with-a-water-pitcher",
+      "title": "Young Woman with a Water Pitcher",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/pdRjIGw58ecojporcDG0_w/medium.jpg",
+      "artist": {
+        "name": "Johannes Vermeer",
+        "hometown": "Delft, Netherlands",
+        "birthday": "1632",
+        "deathday": "1675"
+      },
+      "votes": 95
+    },
+    {
+      "id": "59bd59db139b2149937fce24",
+      "collecting_institution": "",
+      "date": "1660",
+      "dimensions": {
+        "text": "31 5/8 Ã— 26 1/2 in",
+        "height": 31.625,
+        "width": 26.5,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "rembrandt-van-rijn-self-portrait-1661",
+      "title": "Self-Portrait",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/7EthRD-B57oEJovV77WH0Q/medium.jpg",
+      "artist": {
+        "name": "Rembrandt van Rijn",
+        "hometown": "Leiden, Netherlands",
+        "birthday": "1606",
+        "deathday": "1669"
+      },
+      "votes": 41
+    },
+    {
+      "id": "59bd59d4275b247913821bce",
+      "collecting_institution": "",
+      "date": "ca. 1580â€“1585",
+      "dimensions": {
+        "text": "16 1/4 Ã— 12 5/8 in",
+        "height": 16.25,
+        "width": 12.625,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "bartholomaeus-spranger-diana-and-actaeon",
+      "title": "Diana and Actaeon",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/FaqwCA1k4QjgaiGN8PElUQ/medium.jpg",
+      "artist": {
+        "name": "Bartholomaeus Spranger",
+        "hometown": "Antwerp, Belgium",
+        "birthday": "1546",
+        "deathday": "1611"
+      },
+      "votes": 30
+    },
+    {
+      "id": "516dfbcfed1712d0a8000c6d",
+      "collecting_institution": "National Gallery of Art, Washington D.C.",
+      "date": "1645",
+      "dimensions": {
+        "text": "30 5/16 Ã— 25 3/16 in",
+        "height": 30.3125,
+        "width": 25.1875,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "frans-hals-willem-coymans",
+      "title": "Willem Coymans",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/gXMChrE5re4HdlIP6__LXQ/medium.jpg",
+      "artist": {
+        "name": "Frans Hals",
+        "hometown": "Antwerp, Belgium",
+        "birthday": "1582",
+        "deathday": "1666"
+      },
+      "votes": 25
+    },
+    {
+      "id": "516dfa97fdc44191d60005e2",
+      "collecting_institution": "National Gallery of Art, Washington D.C.",
+      "date": "ca. 1665/1666",
+      "dimensions": {
+        "text": "15 7/8 Ã— 14 Ã— 1 3/4 in",
+        "height": 15.875,
+        "width": 14,
+        "depth": 1.75,
+        "diameter": null
+      },
+      "slug": "johannes-vermeer-girl-with-the-red-hat",
+      "title": "Girl with the Red Hat",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/HonaTUUvYdsWkN0lZDupoA/medium.jpg",
+      "artist": {
+        "name": "Johannes Vermeer",
+        "hometown": "Delft, Netherlands",
+        "birthday": "1632",
+        "deathday": "1675"
+      },
+      "votes": 18
+    },
+    {
+      "id": "516dfa059ad2d3888600167a",
+      "collecting_institution": "National Gallery of Art, Washington D.C.",
+      "date": "Probably 1618",
+      "dimensions": {
+        "text": "48 7/16 Ã— 35 7/16 in",
+        "height": 48.4375,
+        "width": 35.4375,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "anthony-van-dyck-portrait-of-a-flemish-lady",
+      "title": "Portrait of a Flemish Lady",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/84kbp21trAp1_h2P8tpoZg/medium.jpg",
+      "artist": {
+        "name": "Anthony van Dyck",
+        "hometown": "Antwerp, Belgium",
+        "birthday": "1599",
+        "deathday": "1641"
+      },
+      "votes": 93
+    },
+    {
+      "id": "516df8a1fdc4419488000c2e",
+      "collecting_institution": "National Gallery of Art, Washington D.C.",
+      "date": "ca. 1664",
+      "dimensions": {
+        "text": "24 3/4 Ã— 23 Ã— 3 in",
+        "height": 24.75,
+        "width": 23,
+        "depth": 3,
+        "diameter": null
+      },
+      "slug": "johannes-vermeer-woman-holding-a-balance-1",
+      "title": "Woman Holding a Balance",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/FK3sgM_5U48WgyZw8_z-5A/medium.jpg",
+      "artist": {
+        "name": "Johannes Vermeer",
+        "hometown": "Delft, Netherlands",
+        "birthday": "1632",
+        "deathday": "1675"
+      },
+      "votes": 43
+    },
+    {
+      "id": "516df82b9ad2d32b27000b74",
+      "collecting_institution": "National Gallery of Art, Washington D.C.",
+      "date": "ca. 1665",
+      "dimensions": {
+        "text": "17 11/16 Ã— 15 11/16 in",
+        "height": 17.6875,
+        "width": 15.6875,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "johannes-vermeer-a-lady-writing-1",
+      "title": "A Lady Writing",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/kkQXTVbKBImWLnGWoLT6Qw/medium.jpg",
+      "artist": {
+        "name": "Johannes Vermeer",
+        "hometown": "Delft, Netherlands",
+        "birthday": "1632",
+        "deathday": "1675"
+      },
+      "votes": 28
+    },
+    {
+      "id": "516df67aed1712e96f000c5a",
+      "collecting_institution": "National Gallery of Art, Washington D.C.",
+      "date": "ca. 1617/1618",
+      "dimensions": {
+        "text": "20 3/16 Ã— 16 5/16 in",
+        "height": 20.1875,
+        "width": 16.3125,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "anthony-van-dyck-head-of-a-young-man",
+      "title": "Head of a Young Man",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/bMtCaSDAZYyPA1ZMpstDvA/medium.jpg",
+      "artist": {
+        "name": "Anthony van Dyck",
+        "hometown": "Antwerp, Belgium",
+        "birthday": "1599",
+        "deathday": "1641"
+      },
+      "votes": 83
+    },
+    {
+      "id": "516df640fdc44191d600040d",
+      "collecting_institution": "National Gallery of Art, Washington D.C.",
+      "date": "",
+      "dimensions": {
+        "text": "12 7/16 Ã— 8 in",
+        "height": 12.4375,
+        "width": 8,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "abraham-bloemaert-saint-bernard-of-clairvaux-with-the-instruments-of-the-passion",
+      "title": "Saint Bernard of Clairvaux with the Instruments of the Passion",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/FD_KWqRKt-cz40mtCXqzww/medium.jpg",
+      "artist": {
+        "name": "Abraham Bloemaert",
+        "hometown": "Gorinchem, Netherlands",
+        "birthday": "1566",
+        "deathday": "1651"
+      },
+      "votes": 32
+    },
+    {
+      "id": "516df3e9b31e2bd65e000aee",
+      "collecting_institution": "National Gallery of Art, Washington D.C.",
+      "date": "",
+      "dimensions": {
+        "text": "19 Ã— 14 5/16 in",
+        "height": 19,
+        "width": 14.3125,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "abraham-bloemaert-head-of-an-old-man",
+      "title": "Head of an Old Man",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/qE7QmlkE7IXhBtufr8tN0g/medium.jpg",
+      "artist": {
+        "name": "Abraham Bloemaert",
+        "hometown": "Gorinchem, Netherlands",
+        "birthday": "1566",
+        "deathday": "1651"
+      },
+      "votes": 39
+    },
+    {
+      "id": "516df2d1ed1712e96f000ab7",
+      "collecting_institution": "National Gallery of Art, Washington D.C.",
+      "date": "1514",
+      "dimensions": {
+        "text": null,
+        "height": null,
+        "width": null,
+        "depth": null,
+        "diameter": null
+      },
+      "slug": "jacob-cornelisz-van-oostsanen-deploration-and-entombment-of-christ",
+      "title": "Deploration and Entombment of Christ",
+      "image": "https://d32dm0rphc51dk.cloudfront.net/RTp2AupQ8BLekR-w1fddYg/medium.jpg",
+      "artist": {
+        "name": "Jacob Cornelisz van Oostsanen",
+        "hometown": "Oostzaan, Netherlands",
+        "birthday": "1470",
+        "deathday": "1533"
+      },
+      "votes": 60
+    }
+  ]
+}
