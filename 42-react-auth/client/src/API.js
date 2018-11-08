@@ -18,9 +18,15 @@ class API {
   }
 
   static validate () {
-    const username = localStorage.getItem('username')
+    const token = localStorage.getItem('token')
     return fetch(this.validateUrl, {
-      headers: {'Authorization': username}
+      headers: {'Authorization': token}
+    }).then(resp => resp.json())
+  }
+
+  static getUserItems () {
+    return fetch('http://localhost:3001/items', {
+      headers: { 'Authorization': localStorage.token }
     }).then(resp => resp.json())
   }
 }

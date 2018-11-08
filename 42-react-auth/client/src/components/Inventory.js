@@ -1,21 +1,11 @@
 import React from 'react'
 
+import API from '../API'
 import Item from './Item'
 
 class Inventory extends React.Component {
   state = {
-    items: [
-      {
-        id: 1,
-        name: 'Cloak',
-        description: "Just add a dagger and you're practically a rogue!"
-      },
-      {
-        id: 2,
-        name: 'Dagger',
-        description: "You've done it!"
-      }
-    ]
+    items: []
   }
 
   style = {
@@ -23,6 +13,25 @@ class Inventory extends React.Component {
     flexDirection: 'column',
     alignItems: 'center',
     flexWrap: 'wrap'
+  }
+
+  getUserItems() {
+    API.getUserItems()
+      .then(data => {
+        if (data.error) {
+          alert('You are not signed in, person.')
+        } else {
+          this.setState({ items: data })
+        }
+      })
+  }
+
+  componentDidMount() {
+    if (!this.props.username) {
+      this.props.history.push('/signin')
+    } else {
+      this.getUserItems()
+    }
   }
 
   render () {
